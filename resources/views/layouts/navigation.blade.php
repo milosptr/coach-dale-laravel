@@ -22,6 +22,9 @@
                     <x-nav-link :href="route('admin-table')" :active="request()->routeIs('admin-table')">
                         {{ __('Table') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('admin-progress')" :active="request()->routeIs('admin-progress')">
+                        {{ __('Progress') }}
+                    </x-nav-link>
                   @else
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
@@ -32,38 +35,25 @@
                     <x-nav-link :href="route('questions')" :active="request()->routeIs('questions')">
                         {{ __('Weekly Question') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('progress')" :active="request()->routeIs('progress')">
+                        {{ __('Progress') }}
+                    </x-nav-link>
                   @endif
                 </div>
             </div>
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6">
-                <x-dropdown align="right" width="48">
-                    <x-slot name="trigger">
-                        <button class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
-                            <div>{{ Auth::user()->name }}</div>
-
-                            <div class="ml-1">
-                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
-                            </div>
-                        </button>
-                    </x-slot>
-
-                    <x-slot name="content">
-                        <!-- Authentication -->
-                        <form method="POST" action="{{ route('logout') }}">
-                            @csrf
-
-                            <x-dropdown-link :href="route('logout')"
-                                    onclick="event.preventDefault();
-                                                this.closest('form').submit();">
-                                {{ __('Log Out') }}
-                            </x-dropdown-link>
-                        </form>
-                    </x-slot>
-                </x-dropdown>
+                <div class="flex items-center text-sm font-medium text-gray-500 hover:text-gray-700  focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
+                    {{ Auth::user()->name }}
+                </div>
+                <!-- Authentication -->
+                <form method="POST" action="{{ route('logout') }}" class="flex items-center justify-center w-8 text-gray-700" title="logout">
+                    @csrf
+                    <button type="submit">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>
+                    </button>
+                </form>
             </div>
 
             <!-- Hamburger -->

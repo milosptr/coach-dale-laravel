@@ -53,4 +53,9 @@ class User extends Authenticatable
     {
       return Auth::user()->role == self::ADMIN;
     }
+
+    public function images()
+    {
+      return $this->hasMany('App\Models\ProgressImage', 'user_id');
+    }
 }

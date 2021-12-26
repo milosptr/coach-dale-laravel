@@ -6,12 +6,11 @@
 
         {{-- Start col-md-3 col-12 mt-md-5 mt-2 --}}
         <div class="col-md-3 col-12 mt-md-5 mt-2">
-            <img src="https://sreten-angular.vercel.app/assets/logo.jpg" alt="Dragutin Mrdak"
+            <img src="/images/logo.jpeg" alt="Dragutin Mrdak"
                 class="w-60-logo ml-2 border-radius">
 
             <p class="mt-2 font-11-px">
-                TRENIRAJ KAKO TI SE KAŽE, JEDI KAKO TI SE KAŽE
-                I <br> GLEDAĆEŠ PROMENE KOJE SI ODUVEK ŽELEO DA VIDIŠ
+                {{ __('pages.footer_description') }}
             </p>
 
         </div>
@@ -19,20 +18,20 @@
         {{-- Start col-md-3 col-12 mt-md-5 mt-2 --}}
         <div class="col-md-3 col-12 mt-md-5 mt-2">
 
-            <h5 class="mb-4">Kontakt Podaci</h5>
+            <h5 class="mb-4">{{__('pages.contact_title') }}</h5>
 
             <span>
-                <i class="fas fa-envelope"></i> Email: mrdak.dragutin@gmail.com
+                <i class="fas fa-envelope"></i> {{ __('pages.email') }}
             </span>
 
             <br>
             <span>
-                <i class="fas fa-phone"></i> Telefon: 063/ 87 - 09 - 090
+                <i class="fas fa-phone"></i> {{ __('pages.phone') }}
             </span>
 
             <br>
             <span>
-                <i class="fas fa-map-marker-alt"></i> Lokacija: Beograd, Srbija
+                <i class="fas fa-map-marker-alt"></i> {{ __('pages.location' )}}
             </span>
 
         </div>
@@ -40,7 +39,7 @@
         {{-- Start col-md-3 col-12 mt-md-5 mt-2 footer --}}
         <div class="col-md-3 col-12 mt-md-5 mt-2 footer">
 
-            <h5 class="mb-4">Drustvene Mreze</h5>
+            <h5 class="mb-4">{{ __('pages.social_title') }}</h5>
 
             <span class="icon-border">
                 <i class="fab fa-facebook-square"></i>
@@ -48,19 +47,19 @@
 
             <a href="https://www.instagram.com/dale_5_fitness/?hl=sr" target="_blank">
                 <span class="icon-border">
-                    <i class="fab fa-instagram mr-2"></i>
+                    <i class="fab fa-instagram"></i>
                 </span>
             </a>
 
             <a href="https://msng.link/o/?0638709090=vi">
                 <span class="icon-border">
-                    <i class="fab fa-viber mr-2"></i>
+                    <i class="fab fa-viber"></i>
                 </span>
             </a>
 
             <a href="https://msng.link/o/?0638709090=wa">
                 <span class="icon-border">
-                    <i class="fab fa-whatsapp mr-2"></i>
+                    <i class="fab fa-whatsapp"></i>
                 </span>
             </a>
 
@@ -73,7 +72,7 @@
     <div class="footer-white col-12 text-center p-1 mt-5">
         <p class="mb-0">
             <i class="far fa-registered mr-2"></i>
-            <b>Sva prava zadrzava DragutinMrdak.</b>
+            <b>{{ __('pages.copyright') }}</b>
         </p>
     </div>
     {{-- Start footer-white col-12 text-center p-1 mt-5 --}}

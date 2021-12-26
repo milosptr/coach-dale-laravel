@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\MessagesController;
+use App\Http\Controllers\ProgressImageController;
 use App\Http\Controllers\WeeklyAnswersController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -22,5 +23,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/messages', [MessagesController::class, 'index']);
 Route::post('/messages', [MessagesController::class, 'store']);
+
+Route::post('/progress-images', [ProgressImageController::class, 'store']);
 
 Route::post('/weekly-answers', [WeeklyAnswersController::class, 'store']);

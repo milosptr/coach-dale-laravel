@@ -6,36 +6,20 @@
 
         @include('web.includes.header')
 
-        <!-- Start services-img -->
-        <div class="services-img align-content-center row services-img p-0 m-0">
-
-            <div class="col-12 animate__animated animate__backInDown">
-
-                <a href="/personal">
-                    <button type="button" class="btn btn-danger mb-3 ml-40 w-160-px" tabindex="0">
-                        Personalni 1 na 1
-                    </button>
-                </a>
-
+        <div class="container mx-auto py-20 max-w-7xl">
+          <div class="flex items-center justify-between">
+            <div class="w-1/4">
+              <a href="/personal" class="flex items-center justify-center text-center py-2 rounded-md w-full bg-red-500 text-white text-base uppercase">personal</a>
             </div>
-
-            <div class="col-12 animate__animated animate__backInDown">
-
-                <a href="/#online-coaching">
-                    <button type="button" class="btn btn-danger mb-3 ml-40 w-160-px">
-                        Online coaching
-                    </button>
-                </a>
-
+            <div class="w-1/4">
+              <a href="/personal" class="flex items-center justify-center text-center py-2 rounded-md w-full bg-red-500 text-white text-base uppercase">personal</a>
             </div>
-            <div class="col-12 animate__animated animate__backInDown">
-                <a href="/#nutrition-coaching">
-                    <button type="button" class="btn btn-danger mb-3 ml-40 w-160-px">
-                        Nutrition coaching
-                    </button>
-                </a>
+            <div class="w-1/4">
+              <a href="/personal" class="flex items-center justify-center text-center py-2 rounded-md w-full bg-red-500 text-white text-base uppercase">personal</a>
             </div>
+          </div>
         </div>
+        <div class="h-100 bg-cover bg-center bg-no-repeat" style="background-image: url('/images/image00003.jpeg');"></div>
 
         @include('web.includes.footer')
 
