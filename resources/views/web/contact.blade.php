@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="row p-0 m-0">
                     @foreach(range(0,9) as $a)
-                      <div class="col-4">
+                      <div class="w-full sm:w-1/3">
                         <div id="accordion" class="mt-4">
                           <div class="question">
                             <div id="heading-{{ $loop->iteration }}">

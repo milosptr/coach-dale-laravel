@@ -32566,6 +32566,29 @@ label.upload-progress-image {
   }
 }
 
+.services-img {
+  background-image: url('/images/homepage.jpg')!important;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .reverse-row-mobile {
+    flex-direction: column-reverse;
+  }
+
+  body .about-images-mobile {
+    width: 100%!important;
+    max-width: 100%!important;
+    min-width: 100%!important;
+    margin: 0!important;
+    position: relative!important;
+    top: -20px!important;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

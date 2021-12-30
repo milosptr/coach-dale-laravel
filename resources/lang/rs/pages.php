@@ -3,7 +3,7 @@
 return [
   'welcome' => 'Dobrodošli',
   'name' => 'DRAGUTIN MRDAK',
-  'job' => 'Fintes trener',
+  'job' => 'Fitnes trener',
   'p1' => 'Ukoliko si u potrazi za personalnim trenerom radi postizanja najboljih rezultata na pravom si mjestu, 8 godina personalnih treninga i 5 godina CrossFit grupnih treninga mi je dao mnogo razlicitih profila i vjezbaca razlicitih nivoa kao i izazova sto mi je pomoglo u kreiranju vise programa treninga koji te mogu dovesti do cilja.',
   'p2' => 'Moj fokus je prvenstveno na zdravlje i dugorocnost u fitnesu/sportu kao i edukaciji klijenata, pa je i pristup svakom klijentu individualizovan. Neke od mojih treninga sa klijentima mozete vidjeti na instagramu kao i recepte koji dobijate u planu ishrane.',
   'video_title' => 'ŽELJENI REZULTATI NADOMAK RUKE - SAZNAJ VIŠE',
@@ -82,7 +82,7 @@ return [
 
   'testimonials_title' => "Utisci klijenata",
 
-  'footer_description' => 'TRENIRAJ KAKO TI SE KAŽE, JEDI KAKO TI SE KAŽE I GLEDAĆEŠ PROMENE KOJE SI ODUVEK ŽELEO DA VIDIŠ',
+  'footer_description' => "Believe you can and you're halfway there.",
   'contact_title' => 'Kontakt Podaci',
   'say_hello_info' => "Možeš da mi se javiš putem Instagrama, Facebooka, Vibera ili WhatsApp-a gde redovno komuniciram sa klijentima, i upućujem ih ako imaju neka dodatna pitanja u vezi sa online saradnjom. Uvek odgovaram na poruke, tako da možeš očekivati da se isti dan dogovorimo o svemu što je bitno za dalju saradnju...",
   'say_hello' => 'Pišite mi',

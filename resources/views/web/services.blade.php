@@ -5,20 +5,21 @@
     <div>
 
         @include('web.includes.header')
-
-        <div class="container mx-auto py-20 max-w-7xl">
-          <div class="flex items-center justify-between">
-            <div class="w-1/4">
-              <a href="/personal" class="flex items-center justify-center text-center py-2 rounded-md w-full bg-red-500 text-white text-base uppercase">personal</a>
+        <section class="py-20">
+          <div class="max-w-7xl mx-auto px-4 sm:px-0">
+            <div id="presonal">
+              @include('web.services.personal')
             </div>
-            <div class="w-1/4">
-              <a href="/personal" class="flex items-center justify-center text-center py-2 rounded-md w-full bg-red-500 text-white text-base uppercase">personal</a>
+            <div id="online-coaching" class="mt-20">
+              @include('web.services.online-coaching')
             </div>
-            <div class="w-1/4">
-              <a href="/personal" class="flex items-center justify-center text-center py-2 rounded-md w-full bg-red-500 text-white text-base uppercase">personal</a>
+            <div id="nutrition-coaching" class="mt-20">
+              @include('web.services.nutrition-coaching')
             </div>
           </div>
-        </div>
+        </section>
+
+
         <div class="h-100 bg-cover bg-center bg-no-repeat" style="background-image: url('/images/image00003.jpeg');"></div>
 
         @include('web.includes.footer')

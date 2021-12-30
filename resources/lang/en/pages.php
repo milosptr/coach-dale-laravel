@@ -45,7 +45,7 @@ return [
   'faq_10_title' => "In which language do you write the workouts?",
   'faq_10_answer' => "All workout plans are written in English. This is partly because of CrossFit but it is also because this way the exercises are pretty much easier to find on youtube as well as on my website rather than in Serbian. In addition to this you also have access to workout dictionary in the EBOOK regarding gym equipment, rest periods, supersets, tempo of exercises etc.",
 
-  'footer_description' => 'TRAIN AS YOU ARE TOLD, EAT AS YOU ARE TOLD AND YOU WILL WATCH THE CHANGES YOU HAVE ALWAYS WANTED TO SEE',
+  'footer_description' => "Believe you can and you're halfway there.",
   'say_hello' => 'Say hello',
   'say_hello_info' => "You can contact me via Instagram, Facebook, Viber or WhatsApp where I regularly communicate with clients, and refer them if they have any additional questions regarding online collaboration. I always reply to messages, so you can expect us to agree on the same day about everything that is important for further cooperation ...",
   'contact_title' => 'Contact Info',

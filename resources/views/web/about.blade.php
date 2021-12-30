@@ -12,7 +12,7 @@
         {{-- Start Container --}}
         <div class="container mt-md-5 mb-md-5 mt-2 mb-2">
             {{-- Start row --}}
-            <div class="row font-13-px">
+            <div class="row font-13-px px-4 sm:px-0">
                 {{-- Start col-md-6 --}}
                 <div class="col-md-7 col-12 animate__animated animate__backInDown">
 
@@ -50,7 +50,7 @@
                 {{-- End col-md-6 --}}
 
                 <div class="col-md-5 col-12">
-                    <img src="/images/dragutin-mrdak.jpg" alt="Dragutin Mrdak" class="w-full mt-5 animate__animated animate__backInDown " style="min-width: 155%!important; margin-left: -70%; top: -60px ; z-index: -1; position: relative;">
+                    <img src="/images/dragutin-mrdak.jpg" alt="Dragutin Mrdak" class="w-full mt-5 animate__animated animate__backInDown about-images-mobile" style="min-width: 155%; margin-left: -70%; top: -60px ; z-index: -1; position: relative;">
                 </div>
                 {{-- End col-md-6 --}}
 
@@ -58,11 +58,11 @@
             {{-- End row --}}
 
             {{-- Start row mt-5 --}}
-            <div class="row mt-5 font-13-px">
+            <div class="row mt-5 font-13-px reverse-row-mobile px-4 sm:px-0">
 
                 {{-- Start col-md-6 col-12 --}}
                 <div class="col-md-6 col-12">
-                    <img src="https://sreten-angular.vercel.app/assets/crossfit.jpg" alt="Crossfit" class="w-100 mt-5 mb-md-0 mb-2 animate__animated animate__backInDown box-shadow">
+                    <img src="/images/about-2.jpeg" alt="Crossfit" class="w-100 mt-5 mb-md-0 mb-2 animate__animated animate__backInDown about-images-mobile" style="min-width: 135%; margin-right: -70%; top: -60px ; z-index: -1; position: relative;">
                 </div>
                 {{-- End col-md-6 col-12 --}}
 

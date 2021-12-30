@@ -13,7 +13,7 @@
 
               <div class="col-12 animate__animated animate__backInDown">
 
-                  <a href="/personal">
+                  <a href="/services/#personal">
                       <button type="button" class="btn btn-danger mb-3 ml-40 w-160-px" tabindex="0">
                           {{ __('pages.personal101') }}
                       </button>
@@ -23,7 +23,7 @@
 
               <div class="col-12 animate__animated animate__backInDown">
 
-                  <a href="/#online-coaching">
+                  <a href="/services/#online-coaching">
                       <button type="button" class="btn btn-danger mb-3 ml-40 w-160-px">
                           Online coaching
                       </button>
@@ -31,7 +31,7 @@
 
               </div>
               <div class="col-12 animate__animated animate__backInDown">
-                  <a href="/#nutrition-coaching">
+                  <a href="/services/#nutrition-coaching">
                       <button type="button" class="btn btn-danger mb-3 ml-40 w-160-px">
                           Nutrition coaching
                       </button>
@@ -43,13 +43,13 @@
         <div class="container">
           <div class="row g-0 justify-content-center align-items-center">
 
-              <div class="col-md-6 col-12 text-center animate__animated animate__backInDown">
-                  <p class="text-grey fs-4 text-uppercase">{{ __('pages.welcome') }}</p>
-                  <p class="text-grey-white fs-1 text-uppercase">{{ __('pages.name') }}</p>
-                  <p class="fs-6">{{ __('pages.job') }}</p>
+              <div class="col-md-6 col-12 text-center animate__animated animate__backInDown mt-4 sm:mt-0">
+                  <p class="text-grey fs-4 text-uppercase poppins">{{ __('pages.welcome') }}</p>
+                  <p class="text-grey-white fs-1 text-uppercase poppins">{{ __('pages.name') }}</p>
+                  <p class="fs-6 poppins">{{ __('pages.job') }}</p>
               </div>
 
-              <div class="col-md-5 col-12 pr-4 mb-5 mt-4 animate__animated animate__backInUp">
+              <div class="col-md-5 col-12 pr-4 mb-5 mt-4 animate__animated animate__backInUp px-4 sm:px-0">
                   <p class="line-height font-weight-bold">
                       {{ __('pages.p1') }}
                   </p>
